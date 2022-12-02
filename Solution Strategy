@@ -1,0 +1,4 @@
+We train a palm detector instead of a hand detector.
+Since estimating bounding boxes of rigid objects like palms and ﬁsts is signiﬁcantly simpler  than detecting hands with articulated ﬁngers.
+In addition, as palms are smaller objects, the non-maximum suppression algorithm works well  even for the two-hand self-occlusion cases, like handshakes.
+After running palm detection over the whole image, our subsequent hand  landmark model performs precise landmark localization of 21 2.5D  coordinates inside the detected hand regions via regression. The model  learns a consistent internal hand pose representation and is robust even to  partially visible hands and self-occlusions.
