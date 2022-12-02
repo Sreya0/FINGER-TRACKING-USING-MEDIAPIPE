@@ -1,0 +1,5 @@
+We implement a Deep Learning approach to detect the features (ﬁngers in this case).
+First, we train a palm detector, since estimating bounding boxes of rigid objects like  palms and ﬁsts is signiﬁcantly simpler than detecting hands with articulated ﬁngers
+Second, we use an encoder-decoder feature extractor for a larger scene-context  awareness even for small objects.
+After running palm detection over the whole image, our subsequent hand landmark  model performs precise landmark localization of 21 2.5D coordinates inside the  detected hand regions via regression.
+The model learns a consistent internal hand pose representation and is robust even to  partially visible hands and self-occlusions.
