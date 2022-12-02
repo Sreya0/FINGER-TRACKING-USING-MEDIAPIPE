@@ -1,0 +1,10 @@
+MediaPipe is a Framework for building machine learning pipelines for processing time-series data like  video, audio, etc. This cross-platform Framework works on Desktop/Server, Android, iOS, and  embedded devices like Raspberry Pi and Jetson Nano.
+Since 2012, Google has been using it internally in several products and services. It was initially developed for real-time analysis  of video and audio on YouTube. Gradually it got integrated into many more products, the following are some of them.
+
+
+Object detection by Google Lens
+Augmented Reality Ads
+Google Photos
+Google Home
+Gmail
+Cloud Vision API, etc.
